@@ -70,7 +70,7 @@ function Ground(color, size_x, size_y, nb_tile)
 
 function Light(name, color, position)
 {
-    pointLight = new THREE.PointLight(color, 200, 0);
+    pointLight = new THREE.PointLight(color, 100, 0);
 
     pointLight.position.x = position.split(',')[0];
     pointLight.position.y = position.split(',')[1];
